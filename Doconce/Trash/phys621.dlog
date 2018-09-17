@@ -1,0 +1,331 @@
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+*** error: missing blank line between multiple figures/movies
+    qqg.png: [ width=100 frac=0.8, ...
+translating doconce text in phys621.do.txt to html
+*** error: missing blank line between multiple figures/movies
+    qqg.png: [ width=100 frac=0.8, ...
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: What are the couplings between quanrks and gluons ?
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 1 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+ERROR: 2 !bblock do not match 1 !eblock directives
+
+
+Two !bblock after each other!
+
+!bblock
+===== Exercise: QCD as the SU(3) gauge theory =====
+label{ex-1}
+
+QCD is the gauge theory of SU(3) color. Show that the Lagrangian
+(ref(QCDLag}) is invariant under gauge transformations
+
+!bt
+\begin{align}
+\psi_{fc} &\to \sum_{c'} \left[e^{ig\sum_{s=1}^8\omega^a(x)\lambda^a}\right]_{cc'}\psi_{fc'} \\
+A_\mu^a(x)
+&\to A_\mu^a(x) + \partial_\mu \omega^a(x)
+\end{align}
+!et
+
+
+!bblock
+translating doconce text in phys621.do.txt to html
+ERROR: 1 !bans do not match 2 !eans directives
+
+*** Exercise: QCD as the SU(3) gauge theory
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: What are the couplings between quarks and gluons?
+    label{ex-2}
+    could be Problem (no refs beyond the exercise itself)
+found info about 2 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+ERROR: 1 !bans do not match 2 !eans directives
+
+*** Exercise: QCD as the SU(3) gauge theory
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: What are the couplings between quarks and gluons?
+    label{ex-2}
+    could be Problem (no refs beyond the exercise itself)
+found info about 2 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+ERROR: 3 !bans do not match 4 !eans directives
+ERROR: 3 !bblock do not match 4 !eblock directives
+
+*** Exercise: QCD as the SU(3) gauge theory
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: What are the couplings between quarks and gluons?
+    label{ex-2}
+    could be Problem (no refs beyond the exercise itself)
+found info about 2 exercises
+*** error: !bans-!eans block is not legal outside an exercise
+    (or problem/project/example) section:
+    If the block is inside an Example, use --examples_as_exercises
+!bans
+!eans
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: QCD as the SU(3) gauge theory
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: What are the couplings between quarks and gluons?
+    label{ex-2}
+    could be Problem (no refs beyond the exercise itself)
+found info about 2 exercises
+*** error: !bans-!eans block is not legal outside an exercise
+    (or problem/project/example) section:
+    If the block is inside an Example, use --examples_as_exercises
+!bans
+!eans
+translating doconce text in phys621.do.txt to html
+
+*** error: !eans is not at the beginning of a line
+    surrounding text:
+ely imaginary elements on the
+off-diagonal. Generators are traceless, i.e. we have to remove one of
+the diagonal matrices. This makes a total of 8 marices.  !eans =====
+===== !eblock
+
+
+!bblock
+===== Exercise: QCD as the SU(3) gauge theory =====
+label{ex-1}
+
+QCD 
+
+did you mean to write `!eans` in some sentence?
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: QCD as the SU(3) gauge theory
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: What are the couplings between quarks and gluons?
+    label{ex-2}
+    could be Problem (no refs beyond the exercise itself)
+found info about 2 exercises
+*** error: !bans-!eans block is not legal outside an exercise
+    (or problem/project/example) section:
+    If the block is inside an Example, use --examples_as_exercises
+!bans
+Complex Hermitian matrices can be build from 9 matrices: Three
+with real elements on the diagonal, three with real elements on the
+off-diagonal, and three with purely imaginary elements on the
+off-diagonal. Generators are traceless, i.e. we have to remove one of
+the diagonal matrices. This makes a total of 8 marices.
+!eans
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: QCD as the SU(3) gauge theory
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: What are the couplings between quarks and gluons?
+    label{ex-2}
+    could be Problem (no refs beyond the exercise itself)
+found info about 2 exercises
+*** error: !bans-!eans block is not legal outside an exercise
+    (or problem/project/example) section:
+    If the block is inside an Example, use --examples_as_exercises
+!bans
+
+Complex Hermitian matrices can be build from 9 matrices: Three
+with real elements on the diagonal, three with real elements on the
+off-diagonal, and three with purely imaginary elements on the
+off-diagonal. Generators are traceless, i.e. we have to remove one of
+the diagonal matrices. This makes a total of 8 marices.
+
+!eans
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: QCD as the SU(3) gauge theory
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: What are the couplings between quarks and gluons?
+    label{ex-2}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: QCD as the SU(3) gauge theory
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+*** error: found multiple labels:
+    ex-3
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-4}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: QCD as the SU(3) gauge theory
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-4}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: QCD as the SU(3) gauge theory
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\rm SU}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+*** error: file has a mako construction ${\rm SU(2)}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+*** error: file has a mako construction ${\rm SU(2)}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+*** error: file has a mako construction ${\rm SU(2)}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+

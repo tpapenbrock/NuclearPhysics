@@ -1,0 +1,364 @@
+<!--
+Automatically generated HTML file from DocOnce source
+(https://github.com/hplgit/doconce/)
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="DocOnce: https://github.com/hplgit/doconce/" />
+<meta name="description" content="Physics 621">
+
+<title>Physics 621</title>
+
+
+<style type="text/css">
+/* blueish style */
+
+/* Color definitions:  http://www.december.com/html/spec/color0.html
+   CSS examples:       http://www.w3schools.com/css/css_examples.asp */
+
+body {
+  margin-top: 1.0em;
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, FreeSans, san-serif;
+  color: #000000;
+}
+h1 { font-size: 1.8em; color: #1e36ce; }
+h2 { font-size: 1.6em; color: #1e36ce; }
+h3 { font-size: 1.4em; color: #1e36ce; }
+a { color: #1e36ce; text-decoration:none; }
+tt { font-family: "Courier New", Courier; }
+/* pre style removed because it will interfer with pygments */
+p { text-indent: 0px; }
+hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+p.caption { width: 80%; font-style: normal; text-align: left; }
+hr.figure { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+.alert-text-small   { font-size: 80%;  }
+.alert-text-large   { font-size: 130%; }
+.alert-text-normal  { font-size: 90%;  }
+.alert {
+  padding:8px 35px 8px 14px; margin-bottom:18px;
+  text-shadow:0 1px 0 rgba(255,255,255,0.5);
+  border:1px solid #bababa;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  color: #555;
+  background-color: #f8f8f8;
+  background-position: 10px 5px;
+  background-repeat: no-repeat;
+  background-size: 38px;
+  padding-left: 55px;
+  width: 75%;
+ }
+.alert-block {padding-top:14px; padding-bottom:14px}
+.alert-block > p, .alert-block > ul {margin-bottom:1em}
+.alert li {margin-top: 1em}
+.alert-block p+p {margin-top:5px}
+.alert-notice { background-image: url(https://cdn.rawgit.com/hplgit/doconce/master/bundled/html_images/small_gray_notice.png); }
+.alert-summary  { background-image:url(https://cdn.rawgit.com/hplgit/doconce/master/bundled/html_images/small_gray_summary.png); }
+.alert-warning { background-image: url(https://cdn.rawgit.com/hplgit/doconce/master/bundled/html_images/small_gray_warning.png); }
+.alert-question {background-image:url(https://cdn.rawgit.com/hplgit/doconce/master/bundled/html_images/small_gray_question.png); }
+
+div { text-align: justify; text-justify: inter-word; }
+</style>
+
+
+</head>
+
+<!-- tocinfo
+{'highest level': 0,
+ 'sections': [('Table of contents',
+               0,
+               'table_of_contents',
+               'table_of_contents'),
+              ('Quantum Chromodynamics (QCD)', 0, None, '___sec0'),
+              ('QCD Lagrangian', 1, None, '___sec1'),
+              ('Exercise 1: Do you understand why there are 8 generators of '
+               'SU(3)?',
+               2,
+               'ex-3',
+               'ex-3'),
+              ('Exercise 2: Write down your version of SU(3) generators!',
+               2,
+               'ex-1',
+               'ex-1'),
+              ('', 2, None, '___sec4'),
+              ('Exercise 3: What are the couplings between quarks and gluons?',
+               2,
+               'ex-2',
+               'ex-2'),
+              ('', 2, None, '___sec6'),
+              ('Confinement', 1, None, '___sec7'),
+              ('Asymptotic freedom', 1, None, '___sec8'),
+              ('Spontaneous Breaking of Chiral Symmetry', 1, None, '___sec9')]}
+end of tocinfo -->
+
+<body>
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+     equationNumbers: {  autoNumber: "AMS"  },
+     extensions: ["AMSmath.js", "AMSsymbols.js", "autobold.js", "color.js"]
+  }
+});
+</script>
+<script type="text/javascript" async
+ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+    
+<!-- ------------------- main content ---------------------- -->
+
+
+
+<center><h1>Physics 621 </h1></center>  <!-- document title -->
+
+<p>
+<!-- author(s): Thomas Papenbrock -->
+
+<center>
+<b>Thomas Papenbrock</b> 
+</center>
+
+<p>
+<!-- institution -->
+
+<center><b>The University of Tennessee, Knoxville, tpapenbr@utk.edu</b></center>
+<br>
+<p>
+<center><h4>Aug 26, 2018</h4></center> <!-- date -->
+<br>
+
+<h1 id="table_of_contents">Table of contents</h2>
+
+<p>
+<a href="#___sec0"> Quantum Chromodynamics (QCD) </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec1"> QCD Lagrangian </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#ex-3"> Exercise 1: Do you understand why there are 8 generators of SU(3)? </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#ex-1"> Exercise 2: Write down your version of SU(3) generators! </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec4"> </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#ex-2"> Exercise 3: What are the couplings between quarks and gluons? </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec6"> </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec7"> Confinement </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec8"> Asymptotic freedom </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec9"> Spontaneous Breaking of Chiral Symmetry </a><br>
+</p>
+<p>
+
+<center><h1 id="___sec0">Quantum Chromodynamics (QCD) </h1></center> <hr>
+
+<p>
+Quantum Chromodynamics (QCD) is the theory of the strong nuclear
+interaction.  Here we briefly discuss aspects of QCD that are
+essential for this course.
+
+<h1 id="___sec1">QCD Lagrangian </h1>
+
+<p>
+QCD describes the interactions between quarks and gluons. The
+Lagrangian density is
+
+$$
+\begin{align}
+\label{QCDLag}
+{\cal L}(x) = \sum_{f=u,d,s,c,b,t} \sum_{c c'=r,g,b}\overline{\psi}_{fc}(x)
+\left(iD_{cc'} - m_f\delta_{c c'}\right)
+\psi_{fc'}(x)
+-{1\over 4} \sum_{a=1}^8 F_{\mu\nu}^a(x) F^{a~\mu\nu}(x)
+\end{align}
+$$
+
+<p>
+Here, the sums are over flavors \( f \), colors \( c,c' \), and gluons
+\( a \). The quark spinor fields are denoted as \( \psi_{fc}(x) \), the
+covariant derivative
+
+$$
+\begin{align}
+\left[iD\right]_{cc'} =i\delta_{cc'}\gamma^\mu\partial_\mu +{g}\sum_{a=1}^8 A_\mu(x)^a{\lambda^a_{cc'}\over 2}
+\label{_auto1}
+\end{align}
+$$
+
+<p>
+couples quarks and gluons, and the field strength tensor is
+
+$$
+\begin{align}
+F_{\mu\nu}^a(x) \equiv \partial_\mu A_\nu(x) -\partial_\nu A_\mu(x) -g \sum_{b,c=1}^8f^{abc}A_\mu^b(x) A_\nu^c(x) . 
+\label{_auto2}
+\end{align}
+$$
+
+<p>
+The strong coupling is denoted as \( g \). The Gell-Mann matrices
+\( \lambda^a \), \( a=1,\ldots, 8 \), are the generators of SU(3),
+i.e. traceless Hermitian \( 3\times 3 \) matrices.  They play the same
+role for SU(3) at the the Pauli matrices do for SU(2), and \( f^{abc} \)
+are the gauge group's structure constants, i.e.
+
+$$
+\begin{align}
+\left[\lambda^a,\lambda^b\right] = i f^{abc}\lambda^c .
+\label{_auto3}
+\end{align}
+$$
+
+<p>
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+
+<p>
+<!-- --- begin exercise --- -->
+
+<h2 id="ex-3">Exercise 1: Do you understand why there are 8 generators of SU(3)?</h2>
+
+<p>
+<!-- --- begin hint in exercise --- -->
+
+<p>
+<b>Hint.</b>
+Take SU(2) and its Pauli matrices as an example and generalize to SU(3)
+
+<p>
+<!-- --- end hint in exercise --- -->
+
+<p>
+<!-- --- begin answer of exercise --- -->
+<b>Answer.</b>
+Complex Hermitian \( 3\times 3 \) matrices can be built from 9 matrices:
+Three matrices with real elements on the diagonal, three with real
+elements on the off-diagonal, and three with purely imaginary elements
+on the off-diagonal. Generators are traceless, i.e. we have to remove
+one of the diagonal matrices. This makes a total of 8 matrices.
+
+<p>
+<!-- --- end answer of exercise --- -->
+
+<p>
+<!-- --- end exercise --- -->
+
+<p>
+<!-- --- begin exercise --- -->
+
+<h2 id="ex-1">Exercise 2: Write down your version of SU(3) generators!</h2>
+
+<p>
+<!-- --- begin hint in exercise --- -->
+
+<p>
+<b>Hint.</b>
+Take SU(2) and its Pauli matrices as an example and generalize to
+SU(3), i.e. Pauli matrices are traceless, complex Hermitian \( 2\times
+2 \) matrices and Gell-Mann matrices are traceless, complex Hermitian
+\( 3\times 3 \) matrices
+
+<p>
+<!-- --- end hint in exercise --- -->
+
+<p>
+<!-- --- end exercise --- -->
+
+<h2><div id="___sec4"></div></h2>
+</div>
+
+
+<p>
+QCD is the gauge theory of SU(3) color. The Lagrangian
+\eqref{QCDLag} is invariant under the simultaneous gauge transformations
+
+$$
+\begin{align}
+\psi_{fc} &\to \sum_{c'} \left[e^{ig\sum_{s=1}^8\omega^a(x)\lambda^a}\right]_{cc'}\psi_{fc'} , 
+\label{_auto4}\\
+A_\mu^a(x)
+&\to A_\mu^a(x) + \partial_\mu \omega^a(x) - g\sum_{bc}f^{abc}\omega^b(x)A_\mu^c(x) 
+\label{_auto5}
+\end{align}
+$$
+
+<p>
+of quark and gluon fields
+
+<p>
+<div class="alert alert-block alert-block alert-text-normal">
+<b></b>
+<p>
+
+<p>
+<!-- --- begin exercise --- -->
+
+<h2 id="ex-2">Exercise 3: What are the couplings between quarks and gluons?</h2>
+
+<p>
+<!-- --- begin hint in exercise --- -->
+
+<p>
+<b>Hint.</b>
+Look at the Lagrangian \eqref{QCDLag} and extract all couplings betweem
+quarks and gluons, and between gluons. In general, interaction terms
+are those that are not purely quadratic in the fields.
+
+<p>
+<!-- --- end hint in exercise --- -->
+
+<p>
+<!-- --- begin answer of exercise --- -->
+<b>Answer.</b>
+
+<p>
+<center>  <!-- FIGURE -->
+<hr class="figure">
+<center><p class="caption">Figure 1:  The quark-gluon vertex \( g \overline{\psi}_{f} A_\mu^a{\lambda^a\over 2} \psi_f \). </p></center>
+<p><img src="qqg.png" align="bottom" width=100></p>
+</center>
+
+<p>
+<center>  <!-- FIGURE -->
+<hr class="figure">
+<center><p class="caption">Figure 2:  The three-gluon vertex. </p></center>
+<p><img src="ggg.png" align="bottom" width=100></p>
+</center>
+
+<p>
+<center>  <!-- FIGURE -->
+<hr class="figure">
+<center><p class="caption">Figure 3:  The four-gluon vertex. </p></center>
+<p><img src="gggg.png" align="bottom" width=100></p>
+</center>
+
+<p>
+<!-- --- end answer of exercise --- -->
+
+<p>
+<!-- --- end exercise --- -->
+
+<h2><div id="___sec6"></div></h2>
+</div>
+
+
+<h1 id="___sec7">Confinement </h1>
+
+<h1 id="___sec8">Asymptotic freedom </h1>
+
+<h1 id="___sec9">Spontaneous Breaking of Chiral Symmetry </h1>
+
+<!-- ------------------- end of main content --------------- -->
+
+
+<center style="font-size:80%">
+<!-- copyright --> &copy; 2018, Thomas Papenbrock. Released under CC Attribution-NonCommercial 4.0 license
+</center>
+
+
+</body>
+</html>
+    
+

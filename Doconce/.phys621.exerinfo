@@ -1,0 +1,113 @@
+
+# Information about all exercises in the file phys621.do.txt.
+# The information can be loaded into a Python list of dicts by
+#
+# f = open('.phys621.exerinfo', 'r')
+# exer = eval(f.read())
+#
+[{'answer': 'Complex Hermitian $3\\times 3$ matrices can be built from 9 '
+            'matrices:\n'
+            'Three matrices with real elements on the diagonal, three with '
+            'real\n'
+            'elements on the off-diagonal, and three with purely imaginary '
+            'elements\n'
+            'on the off-diagonal. Generators are traceless, i.e. we have to '
+            'remove\n'
+            'one of the diagonal matrices. This makes a total of 8 matrices.',
+  'chapter_exercise': 1,
+  'chapter_no': 2,
+  'chapter_title': 'Quantum Chromodynamics (QCD)',
+  'chapter_type': 'Chapter',
+  'closing_remarks': '',
+  'file': None,
+  'heading': '=====',
+  'hints': ['Take SU(2) and its Pauli matrices as an example and generalize to '
+            'SU(3)'],
+  'keywords': None,
+  'label': 'ex-3',
+  'no': 1,
+  'solution': '',
+  'solution_file': None,
+  'subex': [],
+  'text': '',
+  'title': 'Do you understand why there are 8 generators of SU(3)?',
+  'type': 'Exercise',
+  'type_visible': True},
+ {'answer': '',
+  'chapter_exercise': 2,
+  'chapter_no': 2,
+  'chapter_title': 'Quantum Chromodynamics (QCD)',
+  'chapter_type': 'Chapter',
+  'closing_remarks': '',
+  'file': None,
+  'heading': '=====',
+  'hints': ['Take SU(2) and its Pauli matrices as an example and generalize '
+            'to\n'
+            'SU(3), i.e. Pauli matrices are traceless, complex Hermitian '
+            '$2\\times\n'
+            '2$ matrices and Gell-Mann matrices are traceless, complex '
+            'Hermitian\n'
+            '$3\\times 3$ matrices'],
+  'keywords': None,
+  'label': 'ex-1',
+  'no': 2,
+  'solution': '',
+  'solution_file': None,
+  'subex': [],
+  'text': '',
+  'title': 'Write down your version of SU(3) generators!',
+  'type': 'Exercise',
+  'type_visible': True},
+ {'answer': 'FIGURE: [qqg.png, width=100 frac=0.8] The quark-gluon vertex $g '
+            '\\overline{\\psi}_{f} A_\\mu^a{\\lambda^a\\over 2} \\psi_f$.\n'
+            '\n'
+            'FIGURE: [ggg.png, width=100 frac=0.8] The three-gluon vertex.\n'
+            '\n'
+            'FIGURE: [gggg.png, width=100 frac=0.8] The four-gluon vertex.',
+  'chapter_exercise': 3,
+  'chapter_no': 2,
+  'chapter_title': 'Quantum Chromodynamics (QCD)',
+  'chapter_type': 'Chapter',
+  'closing_remarks': '',
+  'file': None,
+  'heading': '=====',
+  'hints': ['Look at the Lagrangian (ref{QCDLag}) and extract all couplings '
+            'betweem\n'
+            'quarks and gluons, and between gluons. In general, interaction '
+            'terms\n'
+            'are those that are not purely quadratic in the fields.'],
+  'keywords': None,
+  'label': 'ex-2',
+  'no': 3,
+  'solution': '',
+  'solution_file': None,
+  'subex': [],
+  'text': '',
+  'title': 'What are the couplings between quarks and gluons?',
+  'type': 'Exercise',
+  'type_visible': True},
+ {'answer': '* The nucleon $(n,p)$ forms the isospin doublet.\n'
+            '* The pion $(\\pi^-,\\pi^0,\\pi^+)$ forms an isovector multiplet '
+            '= isospin triplet.\n'
+            '* The delta resonance '
+            '$(\\Delta^-,\\Delta^0,\\Delta^+,\\Delta^{++})$ forms an isospin '
+            'quartet.\n'
+            '* ...',
+  'chapter_exercise': 4,
+  'chapter_no': 2,
+  'chapter_title': 'Quantum Chromodynamics (QCD)',
+  'chapter_type': 'Chapter',
+  'closing_remarks': '',
+  'file': None,
+  'heading': '=====',
+  'hints': [],
+  'keywords': None,
+  'label': None,
+  'no': 4,
+  'solution': '',
+  'solution_file': None,
+  'subex': [],
+  'text': '',
+  'title': 'Find examples of hadron states that belong to isospin multiplets',
+  'type': 'Exercise',
+  'type_visible': True}]

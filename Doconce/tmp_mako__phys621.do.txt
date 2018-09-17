@@ -1,0 +1,777 @@
+TITLE: Physics 621 
+AUTHOR: Thomas Papenbrock {copyright, 2018|CC BY-NC} at The University of Tennessee, Knoxville, tpapenbr@utk.edu
+DATE: Today
+
+
+TOC: on
+
+
+========= Quantum Chromodynamics (QCD) =========
+
+Quantum Chromodynamics (QCD) is the theory of the strong nuclear
+interaction.  Here we briefly discuss aspects of QCD that are
+essential for this course.
+
+======= QCD Lagrangian =======
+
+QCD describes the interactions between quarks and gluons. The
+Lagrangian density is
+
+!bt
+\begin{align}
+\label{QCDLag}
+{\cal L}(x) = \sum_{f=u,d,s,c,b,t} \sum_{c c'=r,g,b}\overline{\psi}_{fc}(x)
+\left(iD_{cc'} - m_f\delta_{c c'}\right)
+\psi_{fc'}(x)
+-{1\over 4} \sum_{a=1}^8 F_{\mu\nu}^a(x) F^{a~\mu\nu}(x)
+\end{align}
+!et
+
+Here, the sums are over flavors $f$, colors $c,c'$, and gluons
+$a$. The quark spinor fields are denoted as $\psi_{fc}(x)$, the
+covariant derivative
+
+!bt
+\begin{align}
+\left[iD\right]_{cc'} =i\delta_{cc'}\gamma^\mu\partial_\mu +{g}\sum_{a=1}^8 A_\mu(x)^a{\lambda^a_{cc'}\over 2}
+\end{align}
+!et
+
+couples quarks and gluons, and the field strength tensor is
+
+!bt
+\begin{align}
+F_{\mu\nu}^a(x) \equiv \partial_\mu A_\nu(x) -\partial_\nu A_\mu(x) -g \sum_{b,c=1}^8f^{abc}A_\mu^b(x) A_\nu^c(x) . 
+\end{align}
+!et
+
+The strong coupling is denoted as $g$. The Gell-Mann matrices
+$\lambda^a$, $a=1,\ldots, 8$, are the generators of SU(3),
+i.e. traceless Hermitian $3\times 3$ matrices.  They play the same
+role for SU(3) at the the Pauli matrices do for SU(2), and $f^{abc}$
+are the gauge group's structure constants, i.e.
+
+!bt
+\begin{align}
+\left[\lambda^a,\lambda^b\right] = i f^{abc}\lambda^c .
+\end{align}
+!et
+
+
+!bblock
+===== Exercise: Do you understand why there are 8 generators of SU(3)? =====
+label{ex-3}
+
+!bhint
+Take SU(2) and its Pauli matrices as an example and generalize to SU(3)
+!ehint
+
+!bans
+
+Complex Hermitian $3\times 3$ matrices can be built from 9 matrices:
+Three matrices with real elements on the diagonal, three with real
+elements on the off-diagonal, and three with purely imaginary elements
+on the off-diagonal. Generators are traceless, i.e. we have to remove
+one of the diagonal matrices. This makes a total of 8 matrices.
+
+!eans
+
+===== Exercise: Write down your version of SU(3) generators! =====
+label{ex-1}
+
+!bhint
+
+Take SU(2) and its Pauli matrices as an example and generalize to
+SU(3), i.e. Pauli matrices are traceless, complex Hermitian $2\times
+2$ matrices and Gell-Mann matrices are traceless, complex Hermitian
+$3\times 3$ matrices
+
+!ehint
+
+===== =====
+!eblock
+
+
+QCD is the gauge theory of SU(3) color. The Lagrangian (ref{QCDLag})
+is invariant under the simultaneous gauge transformations
+
+!bt
+\begin{align}
+\psi_{fc} &\to \sum_{c'} \left[e^{ig\sum_{s=1}^8\omega^a(x)\lambda^a}\right]_{cc'}\psi_{fc'} , \\ 
+A_\mu^a(x)
+&\to A_\mu^a(x) + \partial_\mu \omega^a(x) - g\sum_{bc}f^{abc}\omega^b(x)A_\mu^c(x) 
+\end{align}
+!et
+
+of quark and gluon fields
+
+!bblock
+===== Exercise: What are the couplings between quarks and gluons? =====
+label{ex-2}
+
+!bhint
+
+Look at the Lagrangian (ref{QCDLag}) and extract all couplings betweem
+quarks and gluons, and between gluons. In general, interaction terms
+are those that are not purely quadratic in the fields.
+
+!ehint
+
+!bans
+
+
+FIGURE: [qqg.png, width=100 frac=0.8] The quark-gluon vertex $g \overline{\psi}_{f} A_\mu^a{\lambda^a\over 2} \psi_f$.
+
+FIGURE: [ggg.png, width=100 frac=0.8] The three-gluon vertex.
+
+FIGURE: [gggg.png, width=100 frac=0.8] The four-gluon vertex.
+
+!eans
+===== =====
+!eblock
+
+
+Input to the QCD Lagrangian are quark masses, and the SU(3) gauge coupling $g$.
+The masses are approximately as follows.
+
+|---c--------------c---------------c----------------|
+| flavor        | charge         | mass             |
+|---c--------------c---------------c----------------|
+|  $u$ (up)     | +2/3           | 2-3 MeV          |
+|  $d$ (down)   | -1/3           | 4-6 MeV          |
+|  $c$ (charm)  | +2/3           | 1.3 GeV          |
+|  $s$ (strange)| -1/3           | 100 MeV          |
+|  $t$ (top)    | +2/3           | 170 GeV          |
+|  $b$ (bottom) | -1/3           | 4.5 GeV          |
+|---------------------------------------------------|
+
+We clearly have two light quarks (possibly three if one counts the $s$
+quark), while the others are heavy. Defining the mass is subtle
+because of confinement.
+
+
+======= Running coupling constant and asymptotic freedom =======
+
+The 
+
+======= Confinement =======
+
+No individual quarks have ever been observed. 
+
+
+======= Spontaneous breaking of chiral symmetry =======
+
+Under Lorentz transformations, two-component spinors either transform
+as the left-handed $(L)$ or the right-handed $(R)$ representation of
+the Lorentz group, and we call them left- and right-handed spinors,
+respectively. In other words: The Lorentz group has two
+two-dimensional representations, one called left-handed and the other
+called right-handed. Lagrangians are Lorentz scalars and employ
+bilinear forms of spinors. It turns out that one needs four-component
+spinors, i.e. spinors consisting of a two-component left-handed and a
+two-component right-handed spinor.
+
+Chirality can be understood without refering to the representations of
+symmetry groups only for massless fermions, because it is then similar
+to helicity. Helicity is the projection of a particle's spin onto its
+momentum. Massless particles have the same helicity in any frame of
+reference, and for such particles a projection onto states with
+left-handed (right-handed) helicity also projects onto states with
+left-handed (right-handed) chirality.
+
+The lightest quarks, i.e. the $u$ and $d$ flavors, are approximately
+massless, and in the limit of vanishing masses for these quarks, the
+QCD Lagrangian exhibits a $SU(2)_L \times SU(2)_R$ chiral
+symmetry, i.e. it is invariant under independent SU(2) rotations
+between the left-handed doublet $(u_L,d_L)$ and SU(2) rotations of the
+and right-handed doublet $(u_R,d_R)$, respectively. In practice,
+the $SU(2)_L \times SU(2)_R$ chiral symmetry implies that hadrons with
+identical spin but opposite parities have equal masses, i.e. hadrons
+come in parity doublets. As the $u$ and $d$ quarks have small masses
+(and are also slightly different in mass), we expect that this
+degeneracy of parity doublets is only approximately realized in
+nature.
+
+
+Let us see, to what extent this symmetry is realized in nature.  The
+nucleon is the lightest $J^\pi={1\over 2}^+$ state, but the nearest
+$J^\pi={1\over 2}^-$ state is 600 MeV higher in energy. Clearly, the
+$SU(2)_L \times SU(2)_R$ chiral symmetry is not realized in nature, at
+least not at low energies.
+
+How to solve this puzzle? The spontaneous breaking of chiral symmetry
+addresses this question. We will digress into spontaneous symmetry
+breaking in general and then come back to the spontaneous breaking of
+chiral symmetry.
+
+======= Spontaneous symmetry breaking =======
+
+===== Why does SSB exist? =====
+
+The laws of nature are invariant under rotations. How can deformed
+object exist (after ground states with angular momentum $l=0$ are
+spherically symmetric)? The laws of nature are invariant under
+translations. How can it be that objects are localized in space (after
+all, plane waves have a uniform probability density in space)? The key
+to answer these (and related) questions is spontaneous symmetry
+breaking (SSB).
+
+Let us consider the rotations of a rigid body (with moment of inertia
+$\Theta$). The energy spectrum is
+
+!bt
+\begin{equation}
+E = {\hbar^2 L(L+1)\over 2\Theta}
+\end{equation}
+!et
+
+for angular momentum $L$.
+
+===== Exercise: =====
+\label{ex-4}
+Given an estimate for a macroscopic object for the level
+spacing near the ground state! How does $\Theta$ depend on the number
+of partciles $N$ for a liquid or solid?
+
+Let us consider the case of the rotor in the presence of a small
+perturbation $\varepsilon$ that breaks rotational invariance. It is
+interesting to consider the limits
+
+!bt
+\begin{align}
+\lim_{N\to\infty}\lim_{\varepsilon\to 0} &, \quad\mbox{and}\nonumber\\ 
+\lim_{\varepsilon\to 0}\lim_{N\to\infty} &
+\end{align}
+!et
+
+separately.  In the first case, the perturbation acts on a finite
+rotor. As long as $\varepsilon$ is larger than the level spacing, the
+ground state will be deformed, i.e. a superposition of states with
+different $L$ quantum numbers. Once $\varepsilon$ is much smaller than
+the level spacing, the ground state is spherically symmetric, and it
+will remain spherically symmetric as the particle number is increased.
+In the second case, the ground state will be deformed for arbitrarily
+small perturbations $\varepsilon$, because the level spacing becomes
+zero as $N\to\infty$, and removing the perturbation will leave us with
+a deformed ground state. For a macroscopic object $\Theta\to\infty$,
+and states with different angular momentum become degenerate.
+
+We see that the order of taking the limits is important. (Do you know
+other examples in physics where this is the case?) Similar though
+experiments can be performed for the center-of-mass motion of an
+object with mass $M$, as the kinetic energy $p^2/(2M)$ tends to zero
+for $M\to\infty$, i.e. for infinite particle number, and
+superpositions of different plane wave states can make a localized
+center-of-mass wave function.
+
+Thus, SSB happens in a {\it macroscopic} system ($N\to\infty$ is
+strictly required) when an arbitrarily small symmetry breaking
+perturbation leads to a ground states with lower symmetry than the
+Hamiltonian.
+
+===== Inequivalent Hilbert spaces =====
+
+Let us consider a simple model for a solid in one dimension. This is a
+crystal with lattice spacing $a$. Let $\psi(x)$ describe the wave
+function of a single ion. We assume that $\psi(x)$ and $\psi(x-a)$ are
+orthogonal to each other. Take an ion in a box of size $a$, or a DVR
+basis as examples.  The ground-state for $2N+1$ ions is thus
+
+!bt
+\begin{equation}
+\label{gs}
+\Psi(x_{-N}, x_{-N+1},\ldots,x_N)
+  = \prod_{j=-N}^{N} \psi(x_j-ja) .
+\end{equation}
+!et 
+
+Of course, the wave fucnton needs to be symmetrized or
+anti-symmetrized, depending on the spin of the ions, but this is not
+an essential point here. Let us consider a translation of the crystal
+by $\eta$. The operator that accomplishes this is
+
+!bt
+\begin{equation}
+\hat{U}(\eta) = e^{-i\eta \hat{P}} \end{equation} % with the total
+momentum % \begin{equation} \hat{P} = \sum_{j=-N}^N
+-i{\partial\over\partial x_j}
+\end{equation}
+!et
+
+as the generator. We
+get the translated wave function
+
+!bt
+\begin{equation}
+\hat{U}(\eta)
+\Psi(x_{-N}, x_{-N+1},\ldots,x_N) = \Psi(x_{-N}-\eta,
+x_{-N+1}-\eta,\ldots,x_N-\eta)
+\end{equation}
+!et
+
+as the result.
+
+We note that the energy of the translated wave function is the same as
+the energy of the original wave function. We also note that the
+translated wave function is orthogonal to the original wave function:
+The overlap of the translated wave function with the original wave
+function~(\ref{gs}) is
+
+!bt
+\begin{align}
+\label{overlap}
+\langle \Psi|\hat{U}(\eta)|\Psi\rangle &=
+\prod_{j=-N}^N \int\limits_{-\infty}^\infty{\rm d}x_j \psi^*(x_j) \psi(x_j-\eta) \nonumber\\ 
+  &= \left(\int\limits_{-\infty}^\infty {\rm d}x \psi^*(x) \psi(x-\eta)\right)^{2N+1} \nonumber \\ 
+  &= |I|^{2N+1},
+  \end{align}
+!et
+
+where $I$ with $|I|<1$ is the value of the integral between the
+translated and original wave function $\psi$. For $N\to\infty$, the
+overlap~(\ref{overlap}) between the translated and original crystal
+thus vanishes for any arbitrarily small displacement $\eta$.  Does
+this mean that the ground state has infinite degeneracy? This problem
+can only be avoided by the insight that the Hilbert spaces of two
+crystals with different positions of the center of mass are unitarily
+inequivalent, i.e.  one has a different Hilbert space for each
+position of the center of mass. As a translation yields a state
+outside the Hilbert space, it is not an allowed dynamical excitation
+of the ground state.
+
+Again, we see that this can only happen in an infinite system. In a
+finte system, ground states that differ by a (small) symmetry
+operation have a finite overlap and cannot be orthogonal to each
+other. Thus, they reside in the same Hilbert space. Superpositions of
+such states (that individally break the symmetry) then yield an
+eigenstate of the symmetry operation and thus exhibit the correct
+symmetry. Projection techniques yield such states, and (up to a
+normalization) as
+
+!bt
+\begin{equation}
+\int {\rm d}\eta \hat{U}(\eta)\Psi(x_{-N},\ldots,x_N)
+\end{equation}
+!et
+indeed gives a state that is invariant under symmetry transformation
+$\hat{U}$ when the integral is over the group parameters (i.e. over
+all displacements for translational invariance or over all rotations
+angles for rotational invariance, respectively).  We thus saw that
+translations (rotations) are not excitations of systems with SSB of
+translational (rotational) symmetry. Next we want to understand what
+are the relevant low-energy excitations for systems exhibiting SSB.
+
+===== Low-energy excitations in presence of SSB: Nambu-Goldstone bosons =====
+
+Let us return to the example of an infinite crystal in one dimension
+and the spontaneous breaking of translational symmetry. The ions are
+at positions $x_jja$, $j$ being an integer and $a$ the lattice
+spacing. Let us turn to the continuum limit and instead consider an
+ion at a continous position label $x$. This yields a field theory, and
+the continuum limit is useful for the description of physical
+phenomena with momenta $k\ll 1/a$. Consider the operation
+%
+\begin{equation}
+\label{Utrans}
+\hat{U}(\eta) = e^{-i \eta(t,x)\hat{P}} ,
+\end{equation}
+%
+where the momentum operator
+%
+\begin{equation}
+\hat{P}=-i{\partial \over\partial x}
+\end{equation}
+%
+generates translations. Let us understand the action of the
+operation~\ref{Utrans} on the ground state $\Psi$. An ion at position
+$x$ is displaced by an amount $\eta(t,x)$ at time $t$. A snapshot (at fixed time $t$ and for a
+two-dimensional crystal, where $\vec{\eta}(t, \vec{x})$ is the
+displacement vector of the ion at position $\vec{x}$) is shown in
+Fig.~\ref{fig1}.
+
+\begin{figure}[htb]
+  \centering
+    \includegraphics[width=0.7\textwidth]{506px-Lattice_wave.pdf}
+      \caption{Picture of lattice vibrations, i. e. position-dependent
+          displacements of lattic ions (green circles) of a two-dimensional
+	      crystal. Also shown (in red) is the wave length $\lambda$ of the
+	          vibration. Note that $\lambda \gg a$, where $a$ is the lattice
+		      spacing, i.e. the spacing between ions. Credit: Florian Marquard,
+		          https://en.wikipedia.org/wiki/Phonon. }
+			    \label{fig1}
+			    \end{figure}
+
+We note that this state, characterized by the function $\eta(t,x)$ has
+again zero overlap with the ground state, using essentially the same
+argument as above. Thus, the state $\hat{U}(\eta(t,x)) \Psi$ is a true
+excitation of the ground state $\Psi$.
+
+
+What is the energy of such an excitation? For long wavelengths
+$\lambda \gg a$ (implying small displacements $|\eta(t,x)|\sim
+a^2/\lambda \ll a$) restoring forces will be harmonic, and the energy
+is thus proportional to the momentum squared, i.e. the square of the
+inverse wave length, or the squared displacement (again proportional
+to $\lambda^{-2}$). As for an infinite system the wavelength can be
+arbitrarily large, excitation energies can be arbitrarily small. This
+implies that excitation energies can be arbitrarily small. The low
+energy excitations in presence of SSB are (mass less) Nambu-Goldstone
+(NG) bosons.
+
+
+===== Construction of  Lagrangians in the presence of SSB =====
+
+We want to construct Lagrangians that describe the low-lying excitations
+in presence of SSB, i.e. the Lagrangian that governs the dynamics of NG fields. The technique here is {\it effective field theory} (EFT). The construction of EFTs follows a recipe
+\begin{enumerate}
+\item {\bf Identify the relevant degrees of freedom at the scale of interest.}
+\item {\bf Write down all terms consistent with the symmetry of the microscopic Hamiltonian and the SSB.}
+\item {\bf Determine the power counting and order terms regarding their size.}
+\end{enumerate}
+
+We already know:
+ \begin{enumerate}
+ \item {\bf Identify the relevant degrees of freedom at the scale of interest:} In the presence of SSB, Nambu-Goldstone fields are the relevant degrees of freedom.
+ \end{enumerate}
+
+As NG fields can have arbitrarily low energies, only derivative couplings are
+allowed. Let us consider SSB of translations again as an example. The action of the
+translation operator onto a lattice ion at $x_0$ is
+%
+\begin{equation}
+\label{transl}
+e^{i\eta\hat{P}} x_0 = x_0+\eta .
+\end{equation}
+%
+Derivatives of NG fields are the key ingredients of that enter any Lagrangian.
+Let $\partial_t = \partial/(\partial t)$ and $\partial_x/(\partial x)$ be shorthands for
+partial derivatives. We have ($j=t, x$)
+%
+\begin{equation}
+\partial_j e^{i\eta\hat{P}} x_0 = \partial_j\eta .
+\end{equation}
+%
+The Lagrangian governing the crystal is invariant under translations, parity, and time reversal.
+\begin{enumerate}
+\setcounter{enumi}{1}
+\item {\bf Write down all terms consistent with the symmetry of the microscopic Hamiltonian and the SSB:} The Lagrangian governing the crystal is invariant under translations, parity, and time reversal.
+\end{enumerate}
+
+Under parity $\hat{\Pi}$ we have
+%
+\begin{align}
+\label{parity}
+\hat{\Pi}^{-1}  \left( e^{i\eta\hat{P}} x_0 \right) \hat{\Pi} &= e^{-\hat{\Pi}^{-1}\eta\hat{\Pi} (-\hat{P})} (-x_0) \nonumber \\ 
+&= -x_0 - \hat{\Pi}^{-1}\eta\hat{\Pi} .
+\end{align}
+%
+Considering the right-hand side of Eq.~(\ref{transl}) under parity, and comparing with Eq.~(\ref{parity}) thus yields
+%
+\begin{equation}
+\hat{\Pi}^{-1}\eta\hat{\Pi} = \eta .
+\end{equation}
+%
+Thus the NG field is even under parity. Similarly, one finds that $\eta$ is even under time reversal.
+As a scalar field, $\eta$ is invariant under translations. There are thus infinitely many combinations
+of fields and derivatives that we can write down. The power counting is an organizational scheme that allows us to order terms by there contributions to the energy. We are interested in low energies of scale $\omega$, i.e. NG fields are waves with frequency $\omega$ and wave length $\lambda\propto \omega^{-1}$. Let $\Lambda$ be the (momentum or energy) scale where the low-energy theory breaks down. For a crystal with lattice spacing $a$, the whole picture of a continuous wave breaks down at $\Lambda\sim a^{-1}$. Thus we have
+%
+\begin{align}
+\label{power}
+\partial_t &\sim \omega , \nonumber\\ 
+\partial_x &\sim \lambda^{-1}\sim\omega , \nonumber\\ 
+\eta &\sim {a^2\over\lambda} \sim a {\omega\over\Lambda} \sim {\omega\over\Lambda^2}\ .
+\end{align}
+%
+We are (only) interested in the regime $\omega \ll \Lambda$.
+We note that terms such as $\eta$ or $\eta^2$ cannot enter the Lagrangian because $\eta$ is a massless NG field. We also note that terms with a single derivative cannot enter because they violate parity or time reversal symmetry. Thus the simplest Lagrangian we can write down is
+%
+\begin{equation}
+\label{phonon}
+   {\cal L} = {\rho_0\over 2}\left({\partial \eta\over\partial
+     t}\right)^2 -{\mu\over 2} \left({\partial \eta\over\partial
+       x}\right)^2 .
+       \end{equation}
+       %
+       Here, $\rho_0$  is the mass density and $\mu$ the compression module. They must be determined from data (or computed from a more microscopic theory) and are low-energy coefficients (LECs) in an EFT.
+       Recall that a Lagrangian density ${\cal L}$ has units length$^{-d-1}$ in $d$ spatial dimensions (because $\int dt d^dx {\cal L}$ is an action and thus proportional to $\hbar$, i.e. of dimension length$^0$ (as we use units with  $\hbar=c=1$). Thus,
+       %
+       \begin{equation}
+       \rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim {\Lambda^4\over\omega^2}
+       \end{equation}
+       yield Lagrangian densities that scale as ${\cal L}\sim \omega^2$, i.e. the Lagrangian $\int dx {\cal L} \sim \omega^{-1}{\cal L}$ is of the  low energy scale $\omega$. If there were no other physics scales, we would be done. The Lagrangian density~(\ref{phonon}) describes waves (see below), and all restoring forces are  harmonic. Corrections to this picture are due to physics at the breakdown scale (rupture of the crystal for large energies $\Lambda$, or electronic excitations at a scale $\Lambda_e$ with $\omega \ll \Lambda_e$. We will not distinguish between the scale where new degrees of freedom enter (i.e. $\Lambda_e$) and the scale $\Lambda$ where the crystal breaks. At the breakdown scale
+       %
+       \begin{align}
+       \partial_x &\sim \partial_x\sim\Lambda ,  \nonumber \\ 
+       \eta&\sim \Lambda^{-1} .
+       \end{align}
+       %
+       Thus, the leading-order terms contribute
+       %
+       \begin{equation}
+       \rho_0(\partial_t\eta)^2 \sim \rho_0 \Lambda^2 \Lambda^{-2} \sim \rho_0 \sim {\Lambda^4\over\omega^2}
+       \end{equation}
+       Consider now a correction term $g \partial^k \eta^l$ with an LEC $g$, $k$ derivatives, and $l$ fields. This term is due to physics at the breakdown scale that can be reached via virtual excitations. At the breakdown scale, this term must be as important as the leading-order terms of the Lagrangian~(\ref{phonon}). Thus,
+       \begin{align}
+       g\Lambda^k\Lambda^{-l} \sim \rho_0 \Lambda^2 \Lambda^{-2} =\rho_0
+       \end{align}
+       %
+       implying
+       %
+       \begin{equation}
+       g\sim \rho_0\Lambda^{l-k} \sim {\Lambda^{4+l-k}\over\omega^2} .
+       \end{equation}
+       %
+       Thus, at the low-energy scale where the relations~(\ref{power}) hold, we have
+       \begin{equation}
+       g\partial^k \eta^l \sim g\omega^k \left({\omega\over\Lambda}\right)^l \sim \omega^2\left(\omega\over \Lambda\right)^{k+l-4} ,
+       \end{equation}
+       and these are indeed corrections to the leading-order terms.
+       \begin{enumerate}
+       \setcounter{enumi}{2}
+       \item {\bf Determine the power counting and order terms regarding their size:} A term with $k$ derivatives and $l$ fields is suppressed by $(\omega/\Lambda)^{k+l-4}$ compared to the leading-order contributions.
+       \end{enumerate}
+       These steps can be employed for any physics situation with a separation of scales $\omega \ll \Lambda$.
+
+Let us finally solve the Lagrangian density~(\ref{phonon}).
+The Euler-Lagrange equations ($\partial_t \equiv {\partial\over\partial t}$
+and $\partial_x \equiv {\partial\over\partial x}$)
+%
+\begin{equation}
+   {\partial_t} {\partial {\cal L}\over \partial(\partial_t\eta)}
+      +{\partial_x} {\partial {\cal L}\over \partial(\partial_x\eta)}
+         -{\partial {\cal L}\over \partial\eta} = 0
+	 \end{equation}
+	 %
+	 for the Lagrangian density~(\ref{phonon}) yield the equations of motion
+	 %
+	 \begin{equation}
+	 \rho_0 \partial_t^2 \eta - \mu\partial_x^2\eta = 0 .
+	 \end{equation}
+	 %
+	 Solutions are plane waves
+	 %
+	 \begin{equation}
+	 \eta(t,x) = \eta_0 e^{i(kx-\omega t)} ,
+	 \end{equation}
+	 %
+	 with
+	 %
+	 \begin{equation}
+	 \label{dispersion}
+	 \omega = \sqrt{\mu\over\rho_0} |k| .
+	 \end{equation}
+	 %
+	 Here
+	 $\sqrt{\mu/\rho_0}$ is the the velocity of sound. Thus, an EFT based on symmetry arguments alone yields the dispersion relation~(\ref{dispersion}) that governs (acoustic) phonons in solids. We have also devised a way to systematically improve the theory.
+	 What is the next-to-leading order correction?
+
+===== Spontaneous breaking of chiral symmetry =====
+
+Let us return to QCD. We know that axial vector symmetry $SU(2)_{L-R}$
+is spontaneously broken by the QCD vacuum. Let us compare this case
+with the crystal discussed above.
+
+\begin{center}
+\begin{tabular}{c|c|c}
+System & 1-D Crystal & QCD\\\hline
+Broken symmetry & translation & $SU(2)_{L-R}$\\ 
+Broken generator(s) & momentum $\hat{P}$ & $SU(2)$ generators: "Pauli matrices"  $\tau_\pm, \tau_0$\\ 
+NG field(s) & phonon $\eta(t,x)$  & pions $\pi_\pm(t,\vec{x}), \pi_0(t,\vec{x})$ \\ 
+NG modes excited by & $e^{i\eta \hat{P}}$ & $e^{{i\over F_\pi}\left(\pi_0\tau_0 +\pi_-\tau_++\pi_+\tau_-\right)} $\\ 
+Order parameter & Lattice spacing & chiral condensate $\langle \overline{q}q\rangle$ \\\hline
+\end{tabular}
+\end{center}
+Note, that $F_\pi\approx 92.4$~MeV is the pion decay constant. Thus, pion fields are in units of MeV.
+The QCD vacuum breaks chiral symmetry, i.e. the expectation value
+%
+\begin{equation}
+\langle\overline{q} q\rangle \ne 0 .
+\end{equation}
+%
+Recall that the quark field $q=q_L+q_r$, and thus the scalar density
+%
+\begin{equation}
+ \overline{q} q =  \overline{q}_L q_R + \overline{q}_R q_L
+ \end{equation}
+ %
+ clearly breaks chiral symmetry as it mixes left and right-handed quarks. Calculations reveal that $ \langle\overline{q} q\rangle\approx$(230~MeV)$^3$.
+
+
+Let us write
+%
+\begin{align}
+\hat{U} \equiv e^{{i\over F_\pi}\left(\pi_0\tau_0 +\pi_-\tau_++\pi_+\tau_-\over f_\pi\right)}
+= e^{{i\over F_\pi}
+\left(\begin{array}{cc}
+\pi_0 & \sqrt{2}\pi_+\\ 
+\sqrt{2}\pi_- & -\pi_0
+\end{array} \right)}.
+\end{align}
+%
+The leading-order term of the pion Lagrangian density is
+%
+\begin{equation}
+\label{pions}
+{\cal L} = {F_\pi^2\over 4} {\rm Tr}\left(\partial_\mu \hat{U} \partial^\mu\hat{U}^\dagger\right)  .
+\end{equation}
+%
+Why is there only one LEC here compared with two LECs for the phonon Lagrangian density~(\ref{phonon})? Check the dimensions of the Lagrangian density~(\ref{pions}).
+Note that the EFT involving pions can now be extended to couple nucleons and pions in a systematic way.
+
+Explicit symmetry breaking: The $u$ and $d$ quarks have non-zero masses $m_u$ and $m_d$, respectively.  Introducing the mass matrix
+%
+\begin{align}
+\hat{M}=\left(\begin{array}{cc}
+m_u & 0\\ 
+0 & m_d \end{array}\right)
+\end{align}
+%
+we can add the term proportional to
+%
+\begin{equation}
+- {\rm Tr} \left(\hat{M}\hat{U}^\dagger + \hat{U}\hat{M}\right)
+\end{equation}
+%
+to the Lagrangian~(\ref{pions}). This term explicitly breaks chiral symmetry.
+
+\end{document}
+
+
+We now want to construct an EFT for this case.  It is clear that only
+drivatives on the NG fields can enter the Lagrangian (as these are
+massless excitations). However, this case is a bit more technical than for the phonons in one dimensional, essentially because the generators of the broken symmetry, $\hat{J}_x$ and $\hat{J}_y$ do not commute. The key quantity entering the Lagrangian is
+%
+\begin{equation}
+\partial_\mu \hat{U}(\omega_x,\omega_y) .
+\end{equation}
+%
+For example, the quadratic term
+%
+\begin{equation}
+{\rm Tr \left[\partial_t \hat{U}(\omega_x,\omega_y) \left(\partial_t \hat{U}(\omega_x,\omega_y)\right)^\dagger\right]
+\end{equation}
+%
+is invariant under time reversal, parity, and rotations (to be shown later).
+This is still difficult to evaluate, and instead it is
+
+
+\section{Leading-order  Lagrangians in the presence of SSB}
+We want to turn next to the systematic construction of EFTs in the
+presence of SSB.
+Let $\partial_\mu$, with $\mu=t, x, y, z$ denote a
+partial derivative. While the construction of the
+Lagrangian~(\ref{phonon}) seemed intuitive, we need to be a bit more
+formal, and show more justification of this approach below. The key objects
+that enter the Lagrangian are the derivatives $\partial_\mu\hat{U}$.
+How can we construct invariants that enter Lagrangians?
+
+To answer this question we consider
+%
+\begin{equation}
+{\rm Tr} \partial_t \hat{U}^\dagger \partial_t\hat{U} .
+\end{equation}
+%
+This is clearly an invariant under group operations. For general unitary operators, $\partial_\mu\hat{U}$  might be difficult to evaluate.
+Noting that $\hat{U}^{-1}=\hat{U}^\dagger$, and that $ \partial_\mu\hat{U}^{-1} = -\hat{U}^{-1} (\partial_\mu\hat{U}) \hat{U}^{-1}$, we see that
+%
+\begin{equation}
+\left( \partial_\mu\hat{U}^\dagger\right) \left( \partial_\mu\hat{U}\right) = - \hat{U}^\dagger  (\partial_\mu\hat{U}) \hat{U}^\dagger  (\partial_\mu\hat{U}) .
+\end{equation}
+%
+This expression has the advantage that for an operator $\hat{U}=\exp{(\hat{A})}$ we can use the Baker-Cambell-Hausdorff expansion
+%
+\begin{equation}
+e^{-\hat{A}} \hat{B} e^{\hat{A} }= \hat{B} +\left[\hat{B}, \hat{A}\right] +{1\over 2!} \left[ \left[\hat{B}, \hat{A}\right] ,\hat{A}\right] + {1\over 3!}  \left[\left[ \left[\hat{B}, \hat{A}\right] ,\hat{A}\right], \hat{A}\right] +\ldots  .
+\end{equation}
+Thus,
+\begin{equation}
+\label{bch}
+e^{-\hat{A}} \partial_\mu e^{\hat{A} } = \partial_\mu\hat{A} +{1\over 2!} \left[ \partial_\mu\hat{A} ,\hat{A}\right] + {1\over 3!}  \left[\left[ \partial_\mu\hat{A} ,\hat{A}\right], \hat{A}\right] +\ldots  .
+\end{equation}
+%
+
+After these technical excursion, we are ready to write down terms that contribute to the leading order of any Lagrangian in the presence of SSB. Let us assume that $\hat{G}_a$, with $a=1,\ldots n_G$ are the generators of the symmetry group, and that $n_b\le n_G$ generators correspond to the symmetry  broken by the ground states. For example, $n_g=1=n_b$ and $\hat{G}=\hat{P}$ in the example of the one-dimensional crystal discussed above. We than have $n$ Nambu-Goldstone fields $\eta_a(t,\vec{x})$, and the operator
+%
+\begin{equation}
+\hat{U} = \exp{\left(-i\sum_{a=1}^n \eta_a(t,\vec{x})\hat{G}_a\right)}  ,
+\end{equation}
+%
+when acting onto the symmetry-breaking ground state, generates excitations in the form of Nambu-Goldstone fields. Leading-order, i.e. lowest energy, Lagrangians are then made from the invariants
+%
+\begin{align}
+{\rm Tr} \left( \hat{U}^\dagger  (\partial_\mu\hat{U}) \hat{U}^\dagger  (\partial_\mu\hat{U}) \right) .
+\end{align}
+%
+These invariants have to be combined such that all symmetries of the microscopic Hamiltonian are met. We discuss several examples in what follows.
+
+Let us return to the Baker-Campbell-Hausdorff expansion~(\ref{bch}).
+In our case, $\hat{A} = -i \sum_{a=1}^{n_b} \eta(t,\vec{x}) \hat{G}_a$, and the right-hand side of Eq.~(\ref{bch}) can be written as
+%
+\begin{equation}
+-i \sum\limits_{a=1}^{n_b} f_a \hat{G}_a  -i \sum\limits_{a=n_b}^{n_G} h_a \hat{G}_a .
+\end{equation}
+%
+The functions $f_a$ enter the construction of invariants.
+
+\subsection{Phonons: SSB of translational symmetry}
+Let us consider a crystal with a cubic lattice for its ions. Translational symmetry of the microscopic Hamiltonian is broken down to a discrete translational symmetry, and the broken generators are $\hat{P}_x$, $\hat{P}_y$, and $\hat{P}_z$, generating translations in $x$, $y$, and $z$ directions, respectively.  This is a simple case because the broken generators all commute with each other, and we have
+%
+\begin{equation}
+\hat{U}^\dagger \partial_\mu \hat{U} = -i \sum\limits_{a=x,y,z} (\partial_\mu\eta_a)\hat{P}_a
+\end{equation}
+using vector notations.
+%
+The NG fields have negative parity, and terms invariant under translations, parity, and time reversal are
+%
+\begin{align}
+&(\partial_t\vec{\eta})^2 , \nonumber\\ 
+&\sum\limits_{a=x,y,z} (\nabla\eta_a)\cdot (\nabla\eta_a) , \quad\mbox{and} \nonumber\\ 
+&(\vec{\nabla}\cdot\vec{\eta})^2
+\end{align}
+%
+What about a term such as $\sum_{a=x,y,z}(\eta_a)\Delta \eta_a)$, or $\vec{\eta}\cdot \partial_t\vec{\eta}$?
+One usually writes the Lagrangian as
+%
+\begin{equation}
+{\cal L} = {\rho_0\over 2} (\partial_t\vec{\eta})^2 - {\mu\over 2} \sum\limits_{a=x,y,z} (\nabla\eta_a)\cdot (\nabla\eta_a) -{1\over 6}(\mu+3K)(\vec{\nabla}\cdot\vec{\eta})^2 .
+\end{equation}
+Here, $\rho_0$ is the mass density, $\mu$ is the torsion mpdule, and
+$K$ the compression modules. In an EFT, these are LECs that need to be determined from data (or from more microscopic models.
+
+\section{EFTs that describe low-energy excitations in the presence of SSB}
+The case of spontaneous breaking of translational symmetry in one
+dimensional crystals can be generalized to arbitrary situations of
+SSB. Let us consider the spontaneous breaking of rotational symmetry
+as it happens in a ferromagnet. Here, all spins point in the same
+direction, and we choose our coordinate system such that the $z$ axis
+points into this direction. Thus, the ground state breaks the $SO(3)$
+invariance of the full Hamiltonian down to rotations around the $z$
+axis, i.e. the symmetry group $SO(2)$. The long wave length
+excitations are then induced by the rotation operator
+%
+\begin{equation}
+\label{Urot}
+\hat{U}(\omega_x,\omega_y) = e^{-i \left(\omega_x(t,\vec{x})\hat{J}_x +\omega_y(t,\vec{x})\hat{J}_y\right)} .
+\end{equation}
+%
+Here the angular momentum operator $\hat{J}_k$ generates rotations
+around the $k$ axis. Note that only the generators of the broken
+symmetry directions, i.e. $\hat{J}_x$ and $\hat{J}_y$, enter in
+Eq.~(\ref{Urot}) because rotations around the $z$ axis, generated by
+$\hat{J}_z$ leave the Lagrangian invariant. We note that $\hat{J}_k$
+is even under parity. Thus, the NG fields $\omega_x(\vec{x})$ and
+$\omega_y(\vec{x})$ are even under parity. At time $t$, the NG fields
+rotate the spin at position $\vec{x}$ around the axis
+$(\omega_x,\omega_y,0)$ by an angle $\sqrt{\omega_x^2+\omega_y^2}$. A
+picture of this situation is shown in Fig.~\ref{fig2}.
+
+\begin{figure}[htb]
+  \centering
+    \includegraphics[width=0.7\textwidth,angle=270]{Spinwave.pdf}
+      \caption{Picture of spin waves (top), as they induce
+          position-dependent rotations of spins of a ferromagnet
+	      (middle). Credit: iramis.cea.fr/Images/astImg/903\_1.jpg}
+	        \label{fig2}
+		\end{figure}
+
+

@@ -1,0 +1,1634 @@
+*** error: file has a mako construction ${\rm SU(2)}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+*** error: file has a mako construction ${SU(2)}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+*** error: file has a mako construction ${SU(2)}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+*** error: file has a mako construction ${SU(2)}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+*** error: file has a mako construction ${SU(2)}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${SU(2)}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${SU(2)}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: potential problem with the math formula
+           ${\cal L}$
+    since ${ can confuse Mako - rewrite or make a newcommand
+Here: use \mathcal{...} in {\cal L} instead of {\cal ...}
+avoided abortion because of --no-abort
+*** error: potential problem with the math formula
+           ${\cal L}\sim \omega^2$
+    since ${ can confuse Mako - rewrite or make a newcommand
+Here: use \mathcal{...} in {\cal L}\sim \omega^2 instead of {\cal ...}
+avoided abortion because of --no-abort
+running mako on phys621.do.txt to make tmp_mako__phys621.do.txt
+*** mako error: mako.exceptions.SyntaxException
+   Invalid control line: '' at line: 199 char: 1
+    Note: the line number refers to the file tmp_mako__phys621.do.txt
+avoided abortion because of --no-abort
+*** mako error:
+*** error: potential problem with the math formula
+           ${\cal L}$
+    since ${ can confuse Mako - rewrite or make a newcommand
+Here: use \mathcal{...} in {\cal L} instead of {\cal ...}
+avoided abortion because of --no-abort
+*** error: potential problem with the math formula
+           ${\cal L}\sim \omega^2$
+    since ${ can confuse Mako - rewrite or make a newcommand
+Here: use \mathcal{...} in {\cal L}\sim \omega^2 instead of {\cal ...}
+avoided abortion because of --no-abort
+running mako on phys621.do.txt to make tmp_mako__phys621.do.txt
+*** mako error: mako.exceptions.SyntaxException
+   Invalid control line: '' at line: 221 char: 1
+    Note: the line number refers to the file tmp_mako__phys621.do.txt
+avoided abortion because of --no-abort
+*** mako error:
+*** error: potential problem with the math formula
+           ${\cal L}$
+    since ${ can confuse Mako - rewrite or make a newcommand
+Here: use \mathcal{...} in {\cal L} instead of {\cal ...}
+avoided abortion because of --no-abort
+*** error: potential problem with the math formula
+           ${\cal L}\sim \omega^2$
+    since ${ can confuse Mako - rewrite or make a newcommand
+Here: use \mathcal{...} in {\cal L}\sim \omega^2 instead of {\cal ...}
+avoided abortion because of --no-abort
+running mako on phys621.do.txt to make tmp_mako__phys621.do.txt
+*** mako error: mako.exceptions.SyntaxException
+   Invalid control line: '' at line: 373 char: 1
+    Note: the line number refers to the file tmp_mako__phys621.do.txt
+avoided abortion because of --no-abort
+*** mako error:
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** warning: found multi-line caption for 506px-Lattice_wave.pdf
+
+ Picture of lattice vibrations, i. e. position-dependent displacements of lattic ions (green circles) of a two-dimensional crystal. Also
+shown (in red) is the wave length $\lambda$ of the vibration. Note
+that $\lambda \gg a$, where $a$ is the lattice spacing, i.e. the
+spacing between ions. Credit: Florian Marquard,
+https://en.wikipedia.org/wiki/Phonon. label{fig1}
+
+    fix: collected this text to one single line (right?)
+
+*** warning: the total of 1 fixes above should be manually edited in the file!
+    (also note: some of these automatic fixes may not be what you want)
+
+*** syntax error: ~ref (1 problems)
+    non-breaking space character not needed/allowed before
+    figure, section, etc. (or other non-equation) references
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{equation}
+is not inside !bt - !et environment
+Recall that a Lagrangian density ${\cal L}$ has units length$^{-d-1}$
+in $d$ spatial dimensions (because $\int dt d^dx {\cal L}$ is an
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{equation}
+is not inside !bt - !et environment
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+that scale as ${\cal L}\sim \omega^2$, i.e. the Lagrangian $\int dx
+{\cal L} \sim \omega^{-1}{\cal L}$ is of the low energy scale
+avoided abortion because of --no-abort
+*** error: reference to equation label "Utrans" is without parentheses
+    the equation reference should be typeset as (ref{Utrans})
+... ion of the
+operation ~ref{Utrans} on the ground state $\Psi$. An ...
+avoided abortion because of --no-abort
+
+*** warning: found \label{...} with backslash
+    (label{...} has no backslash in DocOnce syntax)
+\label{ex-4}
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+*** error: figure file "506px-Lattice_wave.pdf" does not exist!
+avoided abortion because of --no-abort
+figure 506px-Lattice_wave.pdf must have extension(s) .html, .png, .gif, .jpg, .jpeg, .svg
+figure 506px-Lattice_wave.pdf must have extension(s) .html, .png, .gif, .jpg, .jpeg, .svg
+figure 506px-Lattice_wave.pdf must have extension(s) .html, .png, .gif, .jpg, .jpeg, .svg
+*** warning: inline math in HTML must have space around <:
+    |I|<1  ->  |I| < 1
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** warning: found multi-line caption for 506px-Lattice_wave.png
+
+ Picture of lattice vibrations, i. e. position-dependent displacements of lattic ions (green circles) of a two-dimensional crystal. Also
+shown (in red) is the wave length $\lambda$ of the vibration. Note
+that $\lambda \gg a$, where $a$ is the lattice spacing, i.e. the
+spacing between ions. Credit: Florian Marquard,
+https://en.wikipedia.org/wiki/Phonon. label{fig1}
+
+    fix: collected this text to one single line (right?)
+
+*** warning: the total of 1 fixes above should be manually edited in the file!
+    (also note: some of these automatic fixes may not be what you want)
+
+*** syntax error: ~ref (1 problems)
+    non-breaking space character not needed/allowed before
+    figure, section, etc. (or other non-equation) references
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{equation}
+is not inside !bt - !et environment
+Recall that a Lagrangian density ${\cal L}$ has units length$^{-d-1}$
+in $d$ spatial dimensions (because $\int dt d^dx {\cal L}$ is an
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{equation}
+is not inside !bt - !et environment
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+that scale as ${\cal L}\sim \omega^2$, i.e. the Lagrangian $\int dx
+{\cal L} \sim \omega^{-1}{\cal L}$ is of the low energy scale
+avoided abortion because of --no-abort
+*** error: reference to equation label "Utrans" is without parentheses
+    the equation reference should be typeset as (ref{Utrans})
+... ion of the
+operation ~ref{Utrans} on the ground state $\Psi$. An ...
+avoided abortion because of --no-abort
+
+*** warning: found \label{...} with backslash
+    (label{...} has no backslash in DocOnce syntax)
+\label{ex-4}
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+*** warning: inline math in HTML must have space around <:
+    |I|<1  ->  |I| < 1
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** warning: found multi-line caption for 506px-Lattice_wave.png
+
+ Picture of lattice vibrations, i. e. position-dependent displacements of lattic ions (green circles) of a two-dimensional crystal. Also
+shown (in red) is the wave length $\lambda$ of the vibration. Note
+that $\lambda \gg a$, where $a$ is the lattice spacing, i.e. the
+spacing between ions. Credit: Florian Marquard,
+https://en.wikipedia.org/wiki/Phonon. label{fig1}
+
+    fix: collected this text to one single line (right?)
+
+*** warning: the total of 1 fixes above should be manually edited in the file!
+    (also note: some of these automatic fixes may not be what you want)
+
+*** syntax error: ~ref (1 problems)
+    non-breaking space character not needed/allowed before
+    figure, section, etc. (or other non-equation) references
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{equation}
+is not inside !bt - !et environment
+Recall that a Lagrangian density ${\cal L}$ has units length$^{-d-1}$
+in $d$ spatial dimensions (because $\int dt d^dx {\cal L}$ is an
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{equation}
+is not inside !bt - !et environment
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+that scale as ${\cal L}\sim \omega^2$, i.e. the Lagrangian $\int dx
+{\cal L} \sim \omega^{-1}{\cal L}$ is of the low energy scale
+avoided abortion because of --no-abort
+*** error: reference to equation label "Utrans" is without parentheses
+    the equation reference should be typeset as (ref{Utrans})
+... ion of the
+operation ~ref{Utrans} on the ground state $\Psi$. An ...
+avoided abortion because of --no-abort
+
+*** warning: found \label{...} with backslash
+    (label{...} has no backslash in DocOnce syntax)
+\label{ex-4}
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+*** warning: inline math in HTML must have space around <:
+    |I|<1  ->  |I| < 1
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+*** syntax error: ~ref (1 problems)
+    non-breaking space character not needed/allowed before
+    figure, section, etc. (or other non-equation) references
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{equation}
+is not inside !bt - !et environment
+Recall that a Lagrangian density ${\cal L}$ has units length$^{-d-1}$
+in $d$ spatial dimensions (because $\int dt d^dx {\cal L}$ is an
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{equation}
+is not inside !bt - !et environment
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+that scale as ${\cal L}\sim \omega^2$, i.e. the Lagrangian $\int dx
+{\cal L} \sim \omega^{-1}{\cal L}$ is of the low energy scale
+avoided abortion because of --no-abort
+*** error: reference to equation label "Utrans" is without parentheses
+    the equation reference should be typeset as (ref{Utrans})
+... ion of the
+operation ~ref{Utrans} on the ground state $\Psi$. An ...
+avoided abortion because of --no-abort
+
+*** warning: found \label{...} with backslash
+    (label{...} has no backslash in DocOnce syntax)
+\label{ex-4}
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+*** warning: inline math in HTML must have space around <:
+    |I|<1  ->  |I| < 1
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+*** syntax error: ~ref (1 problems)
+    non-breaking space character not needed/allowed before
+    figure, section, etc. (or other non-equation) references
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{equation}
+is not inside !bt - !et environment
+Recall that a Lagrangian density ${\cal L}$ has units length$^{-d-1}$
+in $d$ spatial dimensions (because $\int dt d^dx {\cal L}$ is an
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{equation}
+is not inside !bt - !et environment
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+that scale as ${\cal L}\sim \omega^2$, i.e. the Lagrangian $\int dx
+{\cal L} \sim \omega^{-1}{\cal L}$ is of the low energy scale
+avoided abortion because of --no-abort
+*** error: reference to equation label "Utrans" is without parentheses
+    the equation reference should be typeset as (ref{Utrans})
+... ion of the
+operation ~ref{Utrans} on the ground state $\Psi$. An ...
+avoided abortion because of --no-abort
+
+*** warning: found \label{...} with backslash
+    (label{...} has no backslash in DocOnce syntax)
+\label{ex-4}
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+*** warning: inline math in HTML must have space around <:
+    |I|<1  ->  |I| < 1
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+*** syntax error: ~ref (1 problems)
+    non-breaking space character not needed/allowed before
+    figure, section, etc. (or other non-equation) references
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{equation}
+is not inside !bt - !et environment
+Recall that a Lagrangian density ${\cal L}$ has units length$^{-d-1}$
+in $d$ spatial dimensions (because $\int dt d^dx {\cal L}$ is an
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{equation}
+is not inside !bt - !et environment
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+that scale as ${\cal L}\sim \omega^2$, i.e. the Lagrangian $\int dx
+{\cal L} \sim \omega^{-1}{\cal L}$ is of the low energy scale
+avoided abortion because of --no-abort
+*** error: reference to equation label "Utrans" is without parentheses
+    the equation reference should be typeset as (ref{Utrans})
+... ion of the
+operation ~ref{Utrans} on the ground state $\Psi$. An ...
+avoided abortion because of --no-abort
+
+*** warning: found \label{...} with backslash
+    (label{...} has no backslash in DocOnce syntax)
+\label{ex-4}
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+*** syntax error: ~ref (1 problems)
+    non-breaking space character not needed/allowed before
+    figure, section, etc. (or other non-equation) references
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{equation}
+is not inside !bt - !et environment
+Recall that a Lagrangian density ${\cal L}$ has units length$^{-d-1}$
+in $d$ spatial dimensions (because $\int dt d^dx {\cal L}$ is an
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{equation}
+is not inside !bt - !et environment
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+that scale as ${\cal L}\sim \omega^2$, i.e. the Lagrangian $\int dx
+{\cal L} \sim \omega^{-1}{\cal L}$ is of the low energy scale
+avoided abortion because of --no-abort
+*** error: reference to equation label "Utrans" is without parentheses
+    the equation reference should be typeset as (ref{Utrans})
+... ion of the
+operation ~ref{Utrans} on the ground state $\Psi$. An ...
+avoided abortion because of --no-abort
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+*** syntax error: ~ref (1 problems)
+    non-breaking space character not needed/allowed before
+    figure, section, etc. (or other non-equation) references
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{equation}
+is not inside !bt - !et environment
+Recall that a Lagrangian density ${\cal L}$ has units length$^{-d-1}$
+in $d$ spatial dimensions (because $\int dt d^dx {\cal L}$ is an
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{equation}
+is not inside !bt - !et environment
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+that scale as ${\cal L}\sim \omega^2$, i.e. the Lagrangian $\int dx
+{\cal L} \sim \omega^{-1}{\cal L}$ is of the low energy scale
+avoided abortion because of --no-abort
+*** error: reference to equation label "Utrans" is without parentheses
+    the equation reference should be typeset as (ref{Utrans})
+... ion of the
+operation ~ref{Utrans} on the ground state $\Psi$. An ...
+avoided abortion because of --no-abort
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+*** syntax error: ~ref (1 problems)
+    non-breaking space character not needed/allowed before
+    figure, section, etc. (or other non-equation) references
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{equation}
+is not inside !bt - !et environment
+Recall that a Lagrangian density ${\cal L}$ has units length$^{-d-1}$
+in $d$ spatial dimensions (because $\int dt d^dx {\cal L}$ is an
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{equation}
+is not inside !bt - !et environment
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus, % \begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2} \end{equation} yield Lagrangian densities
+that scale as ${\cal L}\sim \omega^2$, i.e. the Lagrangian $\int dx
+{\cal L} \sim \omega^{-1}{\cal L}$ is of the low energy scale
+avoided abortion because of --no-abort
+*** error: reference to equation label "Utrans" is without parentheses
+    the equation reference should be typeset as (ref{Utrans})
+... ion of the
+operation ~ref{Utrans} on the ground state $\Psi$. An ...
+avoided abortion because of --no-abort
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+*** syntax error: ~ref (1 problems)
+    non-breaking space character not needed/allowed before
+    figure, section, etc. (or other non-equation) references
+avoided abortion because of --no-abort
+ERROR: 36 !bt do not match 37 !et directives
+
+
+Two !et after each other!
+
+!et
+Here, $\rho_0$ is the mass density and $\mu$ the compression
+module. They must be determined from data (or computed from a more
+microscopic theory) and are low-energy coefficients (LECs) in an EFT.
+Recall that a Lagrangian density ${\cal L}$ has units length$^{-d-1}$
+in $d$ spatial dimensions (because $\int dt d^dx {\cal L}$ is an
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus,
+!
+\begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2}
+\end{equation}
+!et
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{equation}
+is not inside !bt - !et environment
+action and thus proportional to $\hbar$, i.e. of dimension length$^0$
+(as we use units with $\hbar=c=1$). Thus,
+!
+\begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2}
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{equation}
+is not inside !bt - !et environment
+\begin{equation}
+\rho_0\sim {\Lambda^4\over\omega^2}\quad\mbox{and}\quad \mu\sim
+{\Lambda^4\over\omega^2}
+\end{equation}
+!et
+yield Lagrangian densities
+avoided abortion because of --no-abort
+*** error: reference to equation label "Utrans" is without parentheses
+    the equation reference should be typeset as (ref{Utrans})
+... ion of the
+operation ~ref{Utrans} on the ground state $\Psi$. An ...
+avoided abortion because of --no-abort
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+*** syntax error: ~ref (1 problems)
+    non-breaking space character not needed/allowed before
+    figure, section, etc. (or other non-equation) references
+avoided abortion because of --no-abort
+*** error: reference to equation label "Utrans" is without parentheses
+    the equation reference should be typeset as (ref{Utrans})
+... ion of the
+operation ~ref{Utrans} on the ground state $\Psi$. An ...
+avoided abortion because of --no-abort
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+found info about 3 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** error: !bt is not at the beginning of a line
+    surrounding text:
+ional matrix representations
+of the group's generators. In the case of SO(3), let us use $L_{\pm} =
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\ran
+
+did you mean to write `!bt` in some sentence?
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{align}
+is not inside !bt - !et environment
+
+Physicists are interested in finite-dimensional matrix representations
+of the group's generators. In the case of SO(3), let us use $L_{\pm} =
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\rangle , \\ \langle l m'\vert L_z \vert l m\rangle &= m\vert l
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{align}
+is not inside !bt - !et environment
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\rangle , \\ \langle l m'\vert L_z \vert l m\rangle &= m\vert l
+m\rangle .  \end{align} !et Thus, for the rotation group SO(3) we know
+all $(2l+1)$ dimensional matrix representations of the generators, and
+the exponentiation (ref{expon}) would give us rotation matrices.
+avoided abortion because of --no-abort
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** error: !bt is not at the beginning of a line
+    surrounding text:
+ional matrix representations
+of the group's generators. In the case of SO(3), let us use $L_{\pm} =
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\ran
+
+did you mean to write `!bt` in some sentence?
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{align}
+is not inside !bt - !et environment
+
+Physicists are interested in finite-dimensional matrix representations
+of the group's generators. In the case of SO(3), let us use $L_{\pm} =
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\rangle , \\ \langle l m'\vert L_z \vert l m\rangle &= m\vert l
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{align}
+is not inside !bt - !et environment
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\rangle , \\ \langle l m'\vert L_z \vert l m\rangle &= m\vert l
+m\rangle .  \end{align} !et Thus, for the rotation group SO(3) we know
+all $(2l+1)$ dimensional matrix representations of the generators, and
+the exponentiation (ref{expon}) would give us rotation matrices.
+avoided abortion because of --no-abort
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** error: !bt is not at the beginning of a line
+    surrounding text:
+ional matrix representations
+of the group's generators. In the case of SO(3), let us use $L_{\pm} =
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\ran
+
+did you mean to write `!bt` in some sentence?
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{align}
+is not inside !bt - !et environment
+
+Physicists are interested in finite-dimensional matrix representations
+of the group's generators. In the case of SO(3), let us use $L_{\pm} =
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\rangle , \\ \langle l m'\vert L_z \vert l m\rangle &= m\vert l
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{align}
+is not inside !bt - !et environment
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\rangle , \\ \langle l m'\vert L_z \vert l m\rangle &= m\vert l
+m\rangle .  \end{align} !et Thus, for the rotation group SO(3) we know
+all $(2l+1)$ dimensional matrix representations of the generators, and
+the exponentiation (ref{expon}) would give us rotation matrices.
+avoided abortion because of --no-abort
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** error: !bt is not at the beginning of a line
+    surrounding text:
+ional matrix representations
+of the group's generators. In the case of SO(3), let us use $L_{\pm} =
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\ran
+
+did you mean to write `!bt` in some sentence?
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+begin{align}
+is not inside !bt - !et environment
+
+Physicists are interested in finite-dimensional matrix representations
+of the group's generators. In the case of SO(3), let us use $L_{\pm} =
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\rangle , \\ \langle l m'\vert L_z \vert l m\rangle &= m\vert l
+avoided abortion because of --no-abort
+
+*** error in math equation: command
+end{align}
+is not inside !bt - !et environment
+L_x\pm iL_y$, and matrix elements are !bt \begin{align} \langle l
+m'\vert L_\pm \vert l m\rangle &= \sqrt{l(l+1)-m(m\pm 1)} \vert l
+m\pm1\rangle , \\ \langle l m'\vert L_z \vert l m\rangle &= m\vert l
+m\rangle .  \end{align} !et Thus, for the rotation group SO(3) we know
+all $(2l+1)$ dimensional matrix representations of the generators, and
+the exponentiation (ref{expon}) would give us rotation matrices.
+avoided abortion because of --no-abort
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
+*** error: file has a mako construction ${\cal L}'
+    but seemingly no definition in <%...%>'
+    (it is not a command-line given mako variable either).
+    However, if this is a variable in a Makefile or Bash script
+    run with --no_mako - and you cannot use mako and Makefile or Bash variables
+    in the same document!
+
+avoided abortion because of --no-abort
+translating doconce text in phys621.do.txt to html
+
+*** Exercise: Do you understand why there are 8 generators of SU(3)?
+    label{ex-3}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Write down your version of SU(3) generators!
+    label{ex-1}
+    could be Problem (no refs beyond the exercise itself)
+
+*** Exercise: Find examples of hadron states that belong to isospin multiplets
+    label{None}
+    could be Problem (no refs beyond the exercise itself)
+found info about 4 exercises
+output in phys621.html
